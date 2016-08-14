@@ -1,0 +1,31 @@
+<!--                               
+	1: Function invocation
+	
+	Copy the following command inside your script tag,
+	To make this function run you will need to invoke an event.
+-->	
+
+<script>
+	showPopUp()
+</script>
+
+
+
+
+
+<!--                               
+	2: Assest and script
+	
+	Include the following snippet at the end of your page, just before the </body> tag
+-->	
+
+<?php include "alert.html" ?>
+<script>
+	function showPopUp(){
+		document.getElementById("alert_background").style.visibility = "visible";
+	}
+	function alert_close(){
+		document.getElementById("alert_background").style.visibility="hidden";
+	}
+
+</script>

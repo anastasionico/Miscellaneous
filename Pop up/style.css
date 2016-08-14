@@ -1,0 +1,44 @@
+/*
+	Copy the content of each media query within the mediaqueries you are currently using for your project,
+	The min-width may no match is advisable to choose the closest one.
+*/
+	@media screen and (min-width: 125px) {
+		#alert_background{
+			z-index:100;position:fixed;top:0px;left:0px;bottom:0px;right:0px;background-color: rgba(15, 25, 51, 0.8);visibility:hidden;
+		}
+		#alert_div_hire-success{
+			background-color:white;display:block; margin:5em auto;width:300px;height:20em;text-align:center;color:#35a;
+		}
+		#alert_div_hire-success > span{
+			background-image: url("img/background_minipattern_azure.png");display:block; margin-top:0em;width:100%;border-top-left-radius: 5px;border-top-right-radius: 5px;color:#fff;padding:3.5em 0;margin-bottom:3em;
+		}
+		#alert_div_hire-success > span i{
+			 position:relative;color:#35a;left:47%;top:-3em;
+		}
+		#alert_div_hire-success > span i:hover{
+			cursor:pointer;
+		}
+	}
+	@media screen and (min-width: 768px) {
+		.column-2_left, .column-2_right{
+			width:40%;
+			margin:1em 5%;
+		}
+		.column-2 textarea{
+			height:7em;
+		}
+	}
+	@media screen and (min-width: 1280px) {
+		.column-2 img{
+			width:70%;
+		}
+	}
+	@media screen and (min-width: 1024px) {	
+		.column-2_left, .column-2_right{
+			width:30%;
+			margin:1em 10%;
+		}
+		.column-2 textarea{
+			height:11em;
+		}	
+	}
