@@ -39,6 +39,6 @@ For other script or inquiries, visit my personal website.
    [Javascript]: <https://www.javascript.com>
    [jQuery]: <http://jquery.com>
    [PHP]: <http://php.net/>
-   [Lavarel]: <https://laravel.com/>
+   [Laravel]: <https://laravel.com/>
    [Mysqli]: <http://www.mysql.com/>
    [anastasionico.uk]: <http://www.anastasionico.uk>
