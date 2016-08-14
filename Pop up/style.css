@@ -4,16 +4,40 @@
 */
 	@media screen and (min-width: 125px) {
 		#alert_background{
-			z-index:100;position:fixed;top:0px;left:0px;bottom:0px;right:0px;background-color: rgba(15, 25, 51, 0.8);visibility:hidden;
+			z-index:100; 
+			position:fixed; 
+			top:0px;
+			left:0px;
+			bottom:0px;
+			right:0px;
+			visibility:hidden;
+			background-color: rgba(0, 0, 0, 0.8);
 		}
 		#alert_div_hire-success{
-			background-color:white;display:block; margin:5em auto;width:300px;height:20em;text-align:center;color:#35a;
+			display:block; 
+			margin:5em auto;
+			width:300px;
+			height:20em;
+			text-align:center;
+			background-color:#fff;
+			color:#35a;
 		}
 		#alert_div_hire-success > span{
-			background-image: url("img/background_minipattern_azure.png");display:block; margin-top:0em;width:100%;border-top-left-radius: 5px;border-top-right-radius: 5px;color:#fff;padding:3.5em 0;margin-bottom:3em;
+			display:block; 
+			padding:3.5em 0;
+			margin-top:0em;
+			margin-bottom:3em; 
+			width:100%;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			background-color: #5de;
+			color:#fff;
 		}
 		#alert_div_hire-success > span i{
-			 position:relative;color:#35a;left:47%;top:-3em;
+			 position:relative;
+			 color:#35a;
+			 left:47%;
+			 top:-3em;
 		}
 		#alert_div_hire-success > span i:hover{
 			cursor:pointer;
