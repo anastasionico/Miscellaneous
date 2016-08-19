@@ -3,6 +3,7 @@
   display: inline-block;
   width: 5em;
   height: 2em;
+  top: -1rem;
 }
 
 .toggle_switch input {display:none;}
@@ -52,3 +53,4 @@ input:checked + .toggle_slider:before {
 
 .toggle_slider.toggle_round:before {
   border-radius: 1rem;
+}
