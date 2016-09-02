@@ -1,0 +1,10 @@
+<div class="container">
+    <form class="searchbox">
+        <input id="searchbar" type="search" placeholder="Search" name="{$search_actionid}searchinput" class="searchbox-input" onkeyup="buttonUp();"  required>
+        <input type="submit" class="searchbox-submit" value="" name="submit">
+    </form>
+    <span class="searchbox-icon fa-1r" onclick="onSearch()"><i class="fa fa-1r fa-search" aria-hidden="true"></i></span>
+    <span id="searchbar-x" 
+    style="color:white;background-color:red;position: relative;bottom: 15px;right: 55px;display:none;"    onclick="onSearchDelete()">reset
+    </span>
+</div>
